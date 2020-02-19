@@ -1,2 +1,2 @@
 # springdemo
-Spring and hibernate codes
+Spring and hibernate codes for practice purpose
