@@ -1,4 +1,4 @@
-package com.tech.aop.SpringbootAOP.aspect;
+package com.tech.aop.asp;
 
 import java.util.Arrays;
 

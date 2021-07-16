@@ -1,4 +1,4 @@
-package com.tech.aop.SpringbootAOP.controller;
+package com.tech.aop.controller;
 
 import java.util.List;
 import java.util.Map;
@@ -16,9 +16,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.tech.aop.SpringbootAOP.exception.ResourceNotFoundException;
-import com.tech.aop.SpringbootAOP.model.Employee;
-import com.tech.aop.SpringbootAOP.service.EmployeeService;
+import com.tech.aop.exception.ResourceNotFoundException;
+import com.tech.aop.model.Employee;
+import com.tech.aop.service.EmployeeService;
 
 @RestController
 @RequestMapping("/api/v1")
