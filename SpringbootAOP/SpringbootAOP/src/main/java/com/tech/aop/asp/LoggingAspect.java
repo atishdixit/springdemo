@@ -27,8 +27,8 @@ public class LoggingAspect {
 		// advices.
 	}
 
-	@Pointcut("within(com.tech.aop.SpringbootAOP..*)" + " ||within(com.tech.aop.SpringbootAOP.service..*)"
-			+ "||within(com.tech.aop.SpringbootAOP.controller..*)")
+	@Pointcut("within(com.tech.aop..*)" + " ||within(com.tech.aop.service..*)"
+			+ "||within(com.tech.aop.controller..*)")
 	public void applicationPackagePointcut() {
 		// Method is empty as this is just a Pointcut, the implementations are in the
 		// advices.
