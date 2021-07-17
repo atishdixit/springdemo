@@ -17,5 +17,4 @@ public class SpringbootAopApplication {
 	public RestTemplate restTemplate(RestTemplateBuilder builder) {
 		return builder.build();
 	}
-	
 }
