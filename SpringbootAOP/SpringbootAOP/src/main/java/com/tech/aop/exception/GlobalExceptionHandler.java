@@ -1,4 +1,4 @@
-package com.tech.aop.SpringbootAOP.exception;
+package com.tech.aop.exception;
 
 import java.util.Date;
 
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 
-import com.tech.aop.SpringbootAOP.model.ErrorDetails;
+import com.tech.aop.model.ErrorDetails;
 
 @ControllerAdvice
 public class GlobalExceptionHandler {

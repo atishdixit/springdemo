@@ -1,4 +1,4 @@
-package com.tech.aop.SpringbootAOP.model;
+package com.tech.aop.model;
 
 import java.util.Date;
 

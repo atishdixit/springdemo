@@ -1,4 +1,4 @@
-package com.tech.aop.SpringbootAOP.service;
+package com.tech.aop.service;
 
 import java.util.HashMap;
 import java.util.List;
@@ -11,10 +11,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
-import com.tech.aop.SpringbootAOP.client.SpringRestClient;
-import com.tech.aop.SpringbootAOP.exception.ResourceNotFoundException;
-import com.tech.aop.SpringbootAOP.model.Employee;
-import com.tech.aop.SpringbootAOP.repository.EmployeeRepository;
+import com.tech.aop.client.SpringRestClient;
+import com.tech.aop.exception.ResourceNotFoundException;
+import com.tech.aop.model.Employee;
+import com.tech.aop.repository.EmployeeRepository;
 
 @Service
 public class EmployeeService {

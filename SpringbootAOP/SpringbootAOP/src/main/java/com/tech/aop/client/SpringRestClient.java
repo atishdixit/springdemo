@@ -1,4 +1,4 @@
-package com.tech.aop.SpringbootAOP.client;
+package com.tech.aop.client;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -11,7 +11,7 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
 
-import com.tech.aop.SpringbootAOP.model.Employee;
+import com.tech.aop.model.Employee;
 
 public class SpringRestClient {
 
